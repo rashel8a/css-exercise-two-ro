@@ -1,76 +1,14 @@
 body {
   font-size: 16px;
-}
-
-body {
   background-color: #071B5E;
   color: #FDFCF1;
 }
-
-h1 {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.4;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: 200;
-    line-height: 1.4;
-    padding-bottom: 10px;
-}
-
-figcaption {
-    font-weight: 200;
-    line-height: 1.4;
-    padding-top: 5px;
-}
-
-.author {
-    font-size: 18px;
-    line-height: 1.4;
-    font-weight: 100;
-    padding-bottom: 10px;
-}
-
+/* Nav bar begins */
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: #FFFFFF;
-  transition: background-color .5s;
-}
-
-a:hover {
-  color:#6B7183;
-}
-
-.logo {
-  background-image: url(../images/bloc-logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left center;
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  background-image: url(../images/instagram-pic.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  width: 55%;
 }
 
 .left, .right {
@@ -80,6 +18,15 @@ a:hover {
 
 .right {
   float: right;
+}
+
+.logo {
+  background-image: url(../images/bloc-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  margin: 20px;
+  width: 100px;
 }
 
 ul {
@@ -92,15 +39,67 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: background-color .5s;
 }
 
+a:hover {
+  color:#6B7183;
+}
+/* Nav bar ends */
+/* Main content begins */
 .container {
   margin: 0 auto;
   width: 50%;
 }
 
+article {
+  padding-top: 100px;
+}
+/* Header begins */
+.medium-pic {
+  background-image: url(../images/instagram-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  width: 55%;
+}
+
+figcaption {
+    font-weight: 200;
+    line-height: 1.4;
+    padding-top: 5px;
+}
+
+h1, h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.4;
+    padding-top: 0px;
+}
+
+.author {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+/* Header ends */
+/* Body text begins */
 .story-text {
   line-height: 1.4;
+}
+/* Body text ends */
+.large-pic {  /* I have no idea why this is here! */
+  width: 100%;
 }
