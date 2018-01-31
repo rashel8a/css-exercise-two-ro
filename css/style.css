@@ -57,6 +57,9 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
+}
+
+.logo {
   margin: 20px;
   width: 100px;
 }
@@ -70,6 +73,9 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
+}
+
+.medium-pic {
   width: 80%;
   height: 60%;
 }
