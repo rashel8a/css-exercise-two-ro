@@ -64,13 +64,14 @@ article {
   width: 70%;
   margin-top: 2em;
   margin-left: 2em;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 figcaption {
     font-weight: 200;
     line-height: 1.4;
     padding-top: 5px;
+    text-indent: 30px;
 }
 
 h1, h3 {
