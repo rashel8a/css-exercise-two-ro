@@ -1,7 +1,8 @@
 body {
   font-size: 16px;
-  background-color: #071B5E;
-  color: #FDFCF1;
+  background-color: #1f2838;
+  color: #C0C0C0;
+  font-family: Arial;
 }
 /* Nav bar begins */
 nav {
@@ -61,44 +62,45 @@ article {
 }
 /* Header begins */
 .medium-pic {
-  width: 70%;
+  max-height: 50%;
+  width: 80%;
   margin-top: 2em;
-  margin-left: 2em;
-  margin-bottom: .5em;
+  margin-bottom: -0.5em;
 }
 
 figcaption {
-    font-weight: 200;
-    line-height: 1.4;
-    padding-top: 5px;
-    text-indent: 30px;
+  font-weight: 200;
+  color: #C0C0C0;
+  line-height: 1.5;
+  padding-top: 5px;
 }
 
 h1, h3 {
+  color: #FDFCF1;
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.4;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
     font-size: 24px;
-    font-weight: 200;
-    line-height: 1.4;
+    font-weight: 500;
+    line-height: 1.5;
     padding-top: 0px;
 }
 
 .author {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.5;
     font-weight: 100;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 /* Header ends */
 /* Body text begins */
 .story-text {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 /* Body text ends */
 .large-pic {  /* I have no idea why this is here! */
